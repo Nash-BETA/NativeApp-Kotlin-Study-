@@ -1,0 +1,15 @@
+/session*/*.iml
+/session*/gradle
+/session*/local.properties
+/session*/.idea/caches
+/session*/.idea/libraries
+/session*/.idea/modules.xml
+/session*/.idea/workspace.xml
+/session*/.idea/navEditor.xml
+/session*/.idea/assetWizardSettings.xml
+/session*/.DS_Store
+/session*/build
+/session*/captures
+/session*/.externalNativeBuild
+/session*/.cxx
+/session*/local.properties
