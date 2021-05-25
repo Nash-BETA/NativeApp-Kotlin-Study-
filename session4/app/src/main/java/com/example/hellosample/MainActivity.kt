@@ -22,11 +22,20 @@ class MainActivity : AppCompatActivity() {
 
     //ボタンを押したときに名前を表示させる処理（インナークラス）
     private inner class HelloListener: View.OnClickListener{
-        override fun onClick(view:View){
+        override fun onClick(view:View) {
             val input = findViewById<EditText>(R.id.etName)
             val output = findViewById<TextView>(R.id.tvOutput)
-            val inputStr = input.text.toString()
-            output.text = inputStr + "さん。こんにちは！"
+
+            when (view.id) {
+                R.id.btClick -> {
+                    val inputStr = input.text.toString()
+                    output.text = inputStr + "さん。こんにちは！"
+                }
+                R.id.btClear -> {
+                    input.setText("")
+                    output.text = ""
+                }
+            }
         }
     }
 }

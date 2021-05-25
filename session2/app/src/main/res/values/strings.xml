@@ -1,25 +1,4 @@
 <resources>
-    <string name="app_name">test</string>
-    <string name="tv_msg">入力してください</string>
-    <string name="bt_save">おす</string>
-    <string name="cd_drink">ドリンク</string>
-    <string name="cd_food">ふーど</string>
-    <string name="rb_male">男</string>
-    <string name="rb_female">女</string>
-    <string-array name="sp_currylist">
-        <item>ドライカレー</item>
-        <item>カツカレー</item>
-        <item>チキンカレー</item>
-        <item>キーマカレー</item>
-        <item>グリーンカレー</item>
-    </string-array>
-    <string-array name="lv_cock_tail_list">
-        <item>ホワイトデー</item>
-        <item>バラライカ</item>
-        <item>ニューヨーク</item>
-        <item>マンハッタン</item>
-        <item>バラライカ</item>
-        <item>ニューヨーク</item>
-        <item>マンハッタン</item>
-    </string-array>
+    <string name="app_name">HelloWorld</string>
+    <string name="button_send">send</string>
 </resources>
